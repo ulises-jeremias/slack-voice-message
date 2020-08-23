@@ -1,0 +1,34 @@
+{
+	"name": "slack-voice-message",
+	"version": "1.0.0",
+	"description": "Voice messages for Slack",
+	"private": true,
+	"scripts": {
+		"build": "parcel build ./src/**/*.js",
+		"dev": "parcel watch ./src/**/*.js --no-hmr",
+		"pretest": "yarn build",
+    "test": "xo && web-ext lint --source-dir=dist",
+    "start:chrome": "chrome --load-extension=$(pwd)/dist",
+    "start:chromium": "chromium --load-extension=$(pwd)/dist",
+    "start:firefox": "web-ext run -s dist",
+    "start:nightly": "web-ext run -s dist --firefox=nightly"
+	},
+	"dependencies": {
+		"date-fns": "^2.15.0",
+		"downloadjs": "^1.4.7",
+		"mic-recorder-to-mp3": "^2.2.2"
+	},
+	"devDependencies": {
+		"parcel-bundler": "^1.12.4",
+		"parcel-plugin-static-files-copy": "^2.5.0",
+		"web-ext": "^5.0.0",
+		"xo": "^0.33.0"
+	},
+	"browserslist": [
+		"last 1 Chrome version"
+	],
+	"xo": {
+		"env": "browser",
+		"prettier": true
+	}
+}
