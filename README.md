@@ -8,18 +8,15 @@ Install in [Firefox](https://addons.mozilla.org/es/firefox/addon/voice-messages-
 
 ## Usage
 
-After you install this extension, a new button with a microphone icon will be added to the message bar in Slack.
+Once this extension is installed, a new button with a microphone icon will be added to the message bar in Slack.
 
 <img src="./assets/button.png" width="300">
 
-1. Click the button with a microphone
-2. Allow this extension to use your microphone (you only need to do this once)
+Just click the button with a microphone and record your voice message!
 
 <img src="./assets/recording.png" width="300">
 
-3. Record your voice message
-4. Drag & drop downloaded audio file into a dialog in Slack
-5. Send message
+After, drag & drop downloaded audio file into a dialog in Slack and you are ready to send message!
 
 Your recordings aren't sent anywhere and are only stored locally on your machine.
 
