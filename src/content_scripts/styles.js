@@ -1,24 +1,6 @@
 export const addStyles = () => {
 	const style = document.createElement('style');
 	style.innerHTML = `
-		@keyframes slack-voice-pulse-keyframes {
-			0% {
-				opacity: 1;
-			}
-
-			50% {
-				opacity: 0.5;
-			}
-
-			100% {
-				opacity: 1;
-			}
-		}
-
-		.slack-voice-pulse {
-			animation: slack-voice-pulse-keyframes 1.4s linear alternate infinite;
-    }
-
     .recording-button {
       color: red;
       border-radius: 25px;
