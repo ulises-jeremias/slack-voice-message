@@ -1,7 +1,7 @@
 {
-	"name": "Voice Messages for Slack",
-	"version": "1.1.0",
-	"description": "Record voice messages and send them in Slack",
+	"name": "Slack Voice Messages",
+	"version": "1.1.1",
+	"description": "Record voice messages and send them in Slack!",
 	"manifest_version": 2,
 	"icons": {
 		"32": "assets/logo32.png",
