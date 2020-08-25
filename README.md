@@ -4,7 +4,7 @@ Browser extension that allows to record voice messages in Slack!
 
 > This project is based on other chrome extensions and ideas, but done the simple way!
 
-Install in [Firefox](https://addons.mozilla.org/es/firefox/addon/voice-messages-for-slack/) and Chrome!
+Install on [Chrome](https://chrome.google.com/webstore/detail/voice-messages-for-slack/pgjekimljidjelahcnhbmmlaldfhgoia) and [Firefox](https://addons.mozilla.org/es/firefox/addon/voice-messages-for-slack/)!
 
 <img src="./assets/example.png">
 
