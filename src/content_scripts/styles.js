@@ -1,30 +1,6 @@
 export const addStyles = () => {
 	const style = document.createElement('style');
 	style.innerHTML = `
-		@keyframes slack-voice-popup-show-keyframes {
-			0% {
-				transform: translateY(8px) scale(0.96);
-				opacity: 0;
-			}
-
-			100% {
-				transform: translateY(0) scale(1);
-				opacity: 1;
-			}
-		}
-
-		@keyframes slack-voice-popup-hide-keyframes {
-			0% {
-				transform: translateY(0) scale(1);
-				opacity: 1;
-			}
-
-			100% {
-				transform: translateY(8px) scale(0.96);
-				opacity: 0;
-			}
-		}
-
 		@keyframes slack-voice-pulse-keyframes {
 			0% {
 				opacity: 1;
@@ -37,14 +13,6 @@ export const addStyles = () => {
 			100% {
 				opacity: 1;
 			}
-		}
-
-		.slack-voice-popup-show {
-			animation: slack-voice-popup-show-keyframes 200ms cubic-bezier(0.645, 0.045, 0.355, 1);
-		}
-
-		.slack-voice-popup-hide {
-			animation: slack-voice-popup-hide-keyframes 200ms cubic-bezier(0.645, 0.045, 0.355, 1);
 		}
 
 		.slack-voice-pulse {
